@@ -1,0 +1,21 @@
+{
+  "name": "snpm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "bin": {
+    "snpm": "./index.js"
+  },
+  "keywords": [],
+  "author": "vird",
+  "license": "MIT",
+  "dependencies": {
+    "fy": "github:hu2prod/fy",
+    "iced-coffee-script": "^108.0.14",
+    "lock_mixin": "github:hu2prod/lock_mixin",
+    "minimist": "^1.2.6",
+    "mkdirp": "^1.0.4",
+    "semver": "^7.3.8"
+  }
+}

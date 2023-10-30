@@ -1,0 +1,97 @@
+lockfileVersion: 5.4
+
+specifiers:
+  fy: github:hu2prod/fy
+  iced-coffee-script: ^108.0.14
+  lock_mixin: github:hu2prod/lock_mixin
+  minimist: ^1.2.6
+  mkdirp: ^1.0.4
+  semver: ^7.3.8
+
+dependencies:
+  fy: github.com/hu2prod/fy/aadf340940d54f207f6e513e4b27cba1a14920b6
+  iced-coffee-script: 108.0.14
+  lock_mixin: github.com/hu2prod/lock_mixin/84e6975cb70ceadf901c0cd1c8882573bb662ee3
+  minimist: 1.2.7
+  mkdirp: 1.0.4
+  semver: 7.3.8
+
+packages:
+
+  /colors/1.4.0:
+    resolution: {integrity: sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==}
+    engines: {node: '>=0.1.90'}
+    dev: false
+
+  /iced-coffee-script/108.0.14:
+    resolution: {integrity: sha512-e0CNmz51UGWRa2glPnUMnJM7oKQE81cxeC0WAgCjJDRImv3FDHldZr/Ngkbrgdbf1drGGzYWp+PWeJwXIfHwDw==}
+    engines: {node: '>=0.8.0'}
+    hasBin: true
+    dependencies:
+      iced-runtime: 1.0.4
+      uglify-js: 3.17.4
+    dev: false
+
+  /iced-runtime/1.0.4:
+    resolution: {integrity: sha512-rgiJXNF6ZgF2Clh/TKUlBDW3q51YPDJUXmxGQXx1b8tbZpVpTn+1RX9q1sjNkujXIIaVxZByQzPHHORg7KV51g==}
+    dev: false
+
+  /lru-cache/6.0.0:
+    resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
+    engines: {node: '>=10'}
+    dependencies:
+      yallist: 4.0.0
+    dev: false
+
+  /minimist/1.2.7:
+    resolution: {integrity: sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==}
+    dev: false
+
+  /mkdirp/1.0.4:
+    resolution: {integrity: sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dev: false
+
+  /semver/7.3.8:
+    resolution: {integrity: sha512-NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      lru-cache: 6.0.0
+    dev: false
+
+  /uglify-js/3.17.4:
+    resolution: {integrity: sha512-T9q82TJI9e/C1TAxYvfb16xO120tMVFZrGA3f9/P4424DNu6ypK103y0GPFVa17yotwSyZW5iYXgjYHkGrJW/g==}
+    engines: {node: '>=0.8.0'}
+    hasBin: true
+    dev: false
+
+  /yallist/4.0.0:
+    resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
+    dev: false
+
+  github.com/hu2prod/fy/aadf340940d54f207f6e513e4b27cba1a14920b6:
+    resolution: {tarball: https://codeload.github.com/hu2prod/fy/tar.gz/aadf340940d54f207f6e513e4b27cba1a14920b6}
+    name: fy
+    version: 1.0.0
+    requiresBuild: true
+    dependencies:
+      iced-coffee-script: 108.0.14
+      prettyjson: github.com/hu2prod/prettyjson/c4b52923922b943d9c7ede2e34ef7ed85b3bef96
+    dev: false
+
+  github.com/hu2prod/lock_mixin/84e6975cb70ceadf901c0cd1c8882573bb662ee3:
+    resolution: {tarball: https://codeload.github.com/hu2prod/lock_mixin/tar.gz/84e6975cb70ceadf901c0cd1c8882573bb662ee3}
+    name: lock_mixin
+    version: 1.0.0
+    requiresBuild: true
+    dev: false
+
+  github.com/hu2prod/prettyjson/c4b52923922b943d9c7ede2e34ef7ed85b3bef96:
+    resolution: {tarball: https://codeload.github.com/hu2prod/prettyjson/tar.gz/c4b52923922b943d9c7ede2e34ef7ed85b3bef96}
+    name: prettyjson
+    version: 1.2.1
+    dependencies:
+      colors: 1.4.0
+    dev: false
